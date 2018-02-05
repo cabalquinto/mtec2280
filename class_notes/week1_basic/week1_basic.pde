@@ -44,4 +44,4 @@ line(300,150,width,0);
 //line from bottom left to top right
 line(0,height,width,0); 
 
-line(0,width,height,0);
+line(0,0,width,height);
