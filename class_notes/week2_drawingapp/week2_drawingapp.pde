@@ -102,6 +102,6 @@ for (int i = 0; i < width; i++) {
   save("snap.gif");  //...export .gif file 
 }
   if(key=='+') { //if the + key is pressed then...
-  save("snap.jpg"); //...export .jpg file
+  save("snap_"+frameCount+".jpg"); //...export .jpg file
 }
 }

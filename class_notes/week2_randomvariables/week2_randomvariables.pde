@@ -15,6 +15,7 @@ void draw() {
   //assigning variables to random color
   float red = random(255); 
   float green = random(255); 
+  
   float blue = random(255); 
   
   fill(red, green, blue); //previously assigned variables to assign RGB values
