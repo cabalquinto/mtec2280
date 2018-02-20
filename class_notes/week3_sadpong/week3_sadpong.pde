@@ -32,7 +32,7 @@ void setup() {
 }
 
 void draw() {
-//  background(0);
+//background(r,g,b);
   x = x + xSpeed; //change x position
   y = y + ySpeed;
   
