@@ -22,8 +22,8 @@ float h = random(height);
   ellipse(w,h,50,50);  
   }  
   
-  if(key=='b') {   //if the x key is pressed then...
-  background(r,g,b);   //...clear screen
+  if(key=='b') {   
+  background(r,g,b);  
   }
 
 
