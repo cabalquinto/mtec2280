@@ -19,7 +19,7 @@ void loop() {
     
     digitalWrite(ledPin[i], HIGH);
 
-    delay(500);
+    delay(50);
   }
 
 
