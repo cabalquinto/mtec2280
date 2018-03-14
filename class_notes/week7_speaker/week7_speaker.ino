@@ -1,7 +1,7 @@
 void setup() {
   // put your setup code here, to run once:
 
-pinMode(10, OUTPUT);
+pinMode(4, OUTPUT);
 
 }
 
@@ -11,14 +11,29 @@ void loop() {
 
 int rando = random(10000) + 5000;
 
-for (int i = 1000; i < 15000; i+=100) {
-  digitalWrite(10, HIGH);
-  delayMicroseconds(rando);
+//for (int i = 1000; i < 15000; i+=100) {
+//  digitalWrite(4, HIGH);
+//  delayMicroseconds(rando);
   
-  digitalWrite(10,LOW);
-  delayMicroseconds(rando);
+//  digitalWrite(4,LOW);
+//  delayMicroseconds(rando);
+  
+// }
+
+
+// delay(500);
+
+for (int i = 1000; i < 15000; i+=100) {
+  digitalWrite(4, HIGH);
+  delayMicroseconds(-i);
+  
+  digitalWrite(4,LOW);
+  delayMicroseconds(-i);
   
 }
+
+
+
 
 //note 2
 
