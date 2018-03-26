@@ -40,6 +40,6 @@ delayMicroseconds(mappedVal);
 //Serial.print(mappedVal);
 //Serial.print(", ");
 //Serial.println(val);
-////delay(20);
+//delay(20);
 
 }
